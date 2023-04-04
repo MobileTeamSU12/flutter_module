@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.FlutterToast",
+    "module": "fluttertoast_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast_profile-1.0.aar",
+          "url": "fluttertoast_profile-1.0.aar",
+          "size": 10232,
+          "sha512": "d812d3c396fd2c4fc7a2f9f086f08a8450d4f8d99dbecea0c7689d063a872bfe40b136b72fd2ead6be2d3a806da8c21fb75a639e30e81519ef38de6834305fc1",
+          "sha256": "84adf8ced8c8133c8a9436bda34321121f950c0b178c547447f50108ee3c5360",
+          "sha1": "c0e29d6cac35ec0cc700cf5280b84f6d9ea5685d",
+          "md5": "66fd67671078e05eeb913eed2454bcf2"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast_profile-1.0.aar",
+          "url": "fluttertoast_profile-1.0.aar",
+          "size": 10232,
+          "sha512": "d812d3c396fd2c4fc7a2f9f086f08a8450d4f8d99dbecea0c7689d063a872bfe40b136b72fd2ead6be2d3a806da8c21fb75a639e30e81519ef38de6834305fc1",
+          "sha256": "84adf8ced8c8133c8a9436bda34321121f950c0b178c547447f50108ee3c5360",
+          "sha1": "c0e29d6cac35ec0cc700cf5280b84f6d9ea5685d",
+          "md5": "66fd67671078e05eeb913eed2454bcf2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.firebasemessaging",
+    "module": "firebase_messaging_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_messaging_debug-1.0.aar",
+          "url": "firebase_messaging_debug-1.0.aar",
+          "size": 49730,
+          "sha512": "5dab072307e2524c7bdca1e24e1e1ab31d0fedae52aa06a5969a38df0d3939ca3106f070342a9b0e7bbfbccd8a6c67a5ed2b731e12931cb8a8f7f612e435104d",
+          "sha256": "a274b053c27773796738c76958750388e4793aa57bdd4c00e01525002f5039ed",
+          "sha1": "82ae72e6b8ce3b4937e5d6ba5b96d167ddfca484",
+          "md5": "4c290fe7f1ce0d0b20a0eacbe9714f73"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "30.5.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging"
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_messaging_debug-1.0.aar",
+          "url": "firebase_messaging_debug-1.0.aar",
+          "size": 49730,
+          "sha512": "5dab072307e2524c7bdca1e24e1e1ab31d0fedae52aa06a5969a38df0d3939ca3106f070342a9b0e7bbfbccd8a6c67a5ed2b731e12931cb8a8f7f612e435104d",
+          "sha256": "a274b053c27773796738c76958750388e4793aa57bdd4c00e01525002f5039ed",
+          "sha1": "82ae72e6b8ce3b4937e5d6ba5b96d167ddfca484",
+          "md5": "4c290fe7f1ce0d0b20a0eacbe9714f73"
+        }
+      ]
+    }
+  ]
+}
